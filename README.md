@@ -1,4 +1,4 @@
-# Neural Network from Scratch for Digit Recognition
+# Neural Network from Scratch for Digit Recognition (No TF, Pytorch or SKlearn, only NumPy)
 
 This repository contains the implementation of a simple neural network from scratch using NumPy for digit recognition. The neural network architecture consists of one hidden layer with ReLU activation and an output layer with softmax activation for multi-class classification.
 
