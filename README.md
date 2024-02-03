@@ -35,14 +35,14 @@ The code is designed to work with the MNIST dataset, a collection of grayscale i
   - Features are normalized using min-max scaling.
 
 - **Initialization:**
-  - Weights are initialized using a normal distribution with a scaling factor.
+  - Weights are initialized using a normal distribution.
 
 - **Activation Functions:**
   - ReLU activation is used for the hidden layer.
   - Softmax activation is used for the output layer.
 
 - **Loss Function:**
-  - Cross-entropy loss is employed, suitable for multi-class classification.
+  - MSE loss is employed, suitable for multi-class classification.
 
 - **Training:**
   - Gradient descent is applied to update parameters.
