@@ -60,8 +60,6 @@ The repository includes a script for plotting accuracy over iterations, providin
 
 ## Tutorials
 
-## Video Tutorials I watched
-
 First Video : https://www.youtube.com/watch?v=b7NnMZPNIXA
 
 Then : https://www.youtube.com/watch?v=w8yWXqWQYmU
