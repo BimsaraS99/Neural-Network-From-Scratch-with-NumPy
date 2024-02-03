@@ -58,10 +58,3 @@ The code is designed to work with the MNIST dataset, a collection of grayscale i
 
 The repository includes a script for plotting accuracy over iterations, providing a visual representation of the training progress.
 
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
