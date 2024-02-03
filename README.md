@@ -58,3 +58,11 @@ The code is designed to work with the MNIST dataset, a collection of grayscale i
 
 The repository includes a script for plotting accuracy over iterations, providing a visual representation of the training progress.
 
+## Tutorials
+
+## Video Tutorials I watched
+
+First Video : https://www.youtube.com/watch?v=b7NnMZPNIXA
+
+Then : https://www.youtube.com/watch?v=w8yWXqWQYmU
+
