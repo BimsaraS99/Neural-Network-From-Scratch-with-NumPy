@@ -73,6 +73,13 @@ The training loop is a fundamental component of training a machine learning mode
 
 6. **Repeat:**
 
+In summary:
+
+- **Learning rate** is a hyperparameter controlling the step size of parameter updates during training. It affects the convergence speed and stability of the optimization process.
+- **Epochs** represent the number of times the entire training dataset is passed forward and backward through the neural network during training. They help the model learn from the data and refine its parameters
+
+Learning rate and epochs are essential hyperparameters that need to be carefully chosen to ensure effective training and optimal performance of the machine learning or deep learning model. Adjusting these hyperparameters can significantly impact the training process and the model's ability to generalize to unseen data.
+
 ![image](https://github.com/BimsaraS99/Neural-Network-From-Scratch-with-NumPy/assets/107334404/3d1e1517-e489-489f-a535-0a8e6b0a50ca)
 
 
@@ -95,3 +102,26 @@ Feed the input data through the model to generate predictions. This step involve
 ![image](https://github.com/BimsaraS99/Neural-Network-From-Scratch-with-NumPy/assets/107334404/b9d6f521-28aa-4b73-a93d-3f2a913d80ef)
 
 ### 3. Loss Calcultaions
+
+A loss function is applied to quantify the discrepancy between the predictions and the actual targets. Common loss functions include mean squared error (MSE) for regression tasks and categorical cross-entropy for classification tasks.
+The loss function calculates a single scalar value representing the overall error or discrepancy between the predictions and the actual targets.
+
+![image](https://github.com/BimsaraS99/Neural-Network-From-Scratch-with-NumPy/assets/107334404/bf6a16d6-b820-4332-acbf-fd3777ad225f)
+
+### 4. Backpropagation
+
+In the backward pass, the gradient of the loss function with respect to each parameter (weight and bias) in the network is calculated using the chain rule of calculus. The gradients are computed layer by layer, starting from the output layer and moving backward towards the input layer.
+
+![image](https://github.com/BimsaraS99/Neural-Network-From-Scratch-with-NumPy/assets/107334404/dd722d66-74cf-43c9-bc8d-aaf5aab23bdf)
+
+### 5. Parameter Update
+
+Once the gradients are computed, the parameters of the network (weights and biases) are updated using an optimization algorithm such as gradient descent. The updates are made in the opposite direction of the gradient to minimize the loss function.
+
+![image](https://github.com/BimsaraS99/Neural-Network-From-Scratch-with-NumPy/assets/107334404/6401b076-3cd2-4e39-831b-a9d9762eb7e0)
+
+### 6. Repeat
+
+Repeat steps 2-5 for a fixed number of iterations (epochs) or until a convergence criterion is met. This process allows the model to iteratively learn from the training data, gradually improving its performance.
+
+
