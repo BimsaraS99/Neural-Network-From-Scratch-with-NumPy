@@ -73,8 +73,6 @@ The training loop is a fundamental component of training a machine learning mode
 
 6. **Repeat:**
 
-In summary:
-
 - **Learning rate** is a hyperparameter controlling the step size of parameter updates during training. It affects the convergence speed and stability of the optimization process.
 - **Epochs** represent the number of times the entire training dataset is passed forward and backward through the neural network during training. They help the model learn from the data and refine its parameters
 
