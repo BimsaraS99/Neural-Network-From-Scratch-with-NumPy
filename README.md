@@ -19,6 +19,8 @@ The basic building blocks of ANNs are neurons, which receive input signals, perf
 ### Activation Function
 
 In the above figure, you can see **Activation function**. the The purpose of the activation function in a neural network is to introduce non-linearity into the model. Without an activation function, the output of each neuron would be a linear combination of its inputs, regardless of the number of layers in the network. This would limit the network's ability to learn complex patterns and relationships in the data.
+![image](https://github.com/BimsaraS99/Neural-Network-From-Scratch-with-NumPy/assets/107334404/0b2a15b3-d19f-46d6-bfac-d15b716bafe6)
+
 
 ### Weights and bias
 
@@ -41,5 +43,51 @@ Hidden layers are intermediary layers between the input and output layers. They 
 
 ### Output Layer
 The output layer is the final layer of the neural network architecture. It produces the network's output predictions based on the learned representations from the hidden layers. Each neuron in the output layer typically represents a class label in classification tasks or a continuous value in regression tasks. For example, in a binary classification task, the output layer may consist of two neurons representing the probability of each class. The number of neurons in the output layer depends on the specific task at hand, with each neuron contributing to the final prediction or output of the network.
+
+## Data and Dataset
+
+In the project focused on digit classification, the dataset typically comprises handwritten digits, each represented as a 28x28 pixel image. These images are grayscale, meaning each pixel's intensity ranges from 0 (black) to 255 (white).
+
+The dataset usually contains a large number of such images, with each image labeled with the corresponding digit it represents (0 to 9). This type of dataset is commonly used for multiclass classification tasks, where the goal is to train a model to correctly classify each image into one of the ten possible digit classes.
+
+Each image in the dataset serves as a data point, with its pixel values serving as features. In total, there are 784 features (28x28) representing each image. These features capture various aspects of the handwritten digits, such as the curvature of strokes, the thickness of lines, and the overall shape of the digit.
+
+The dataset is typically divided into training and testing sets, where the training set is used to train the model, and the testing set is used to evaluate its performance on unseen data. Additionally, preprocessing techniques such as normalization or standardization may be applied to the pixel values to enhance model training and generalization.
+
+![image](https://github.com/BimsaraS99/Neural-Network-From-Scratch-with-NumPy/assets/107334404/0fe58ac3-4324-4618-9d36-dc1d03f96ee0)
+
+
+## Training Loop
+
+The training loop is a fundamental component of training a machine learning model, including neural networks. It's essentially a process where the model iteratively learns from the training data to improve its performance over time. The training loop typically consists of the following steps:
+
+1. **Initialization:** 
+
+2. **Forward Pass:** 
+
+3. **Loss Computation:** 
+
+4. **Backpropagation:**
+
+5. **Parameter Update:**
+
+6. **Repeat:**
+
+![image](https://github.com/BimsaraS99/Neural-Network-From-Scratch-with-NumPy/assets/107334404/3d1e1517-e489-489f-a535-0a8e6b0a50ca)
+
+
+
+### 1. Initialization
+
+Initialize the model parameters, such as weights and biases, usually randomly or with predefined values. Random initialization from a uniform or normal distribution with small values (e.g., between -0.1 and 0.1 or -0.01 and 0.01).
+
+![image](https://github.com/BimsaraS99/Neural-Network-From-Scratch-with-NumPy/assets/107334404/b6a94443-9b64-40f3-8905-afcd36dfefdd)
+
+### 2. Forward Pass
+
+
+
+![image](https://github.com/BimsaraS99/Neural-Network-From-Scratch-with-NumPy/assets/107334404/b9d6f521-28aa-4b73-a93d-3f2a913d80ef)
+
 
 
