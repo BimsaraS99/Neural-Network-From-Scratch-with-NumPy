@@ -125,3 +125,6 @@ Once the gradients are computed, the parameters of the network (weights and bias
 Repeat steps 2-5 for a fixed number of iterations (epochs) or until a convergence criterion is met. This process allows the model to iteratively learn from the training data, gradually improving its performance.
 
 
+Further information and resources on deep learning can be found in the `my_note.pdf` and `my_note.md` files accompanying this article. These documents provide additional insights, explanations, and references to help deepen your understanding of the concepts discussed. Whether you're a beginner looking to grasp the basics or an advanced practitioner seeking more advanced techniques, these materials serve as valuable companions to your exploration of deep learning. Dive into the contents of these files to expand your knowledge and unlock new possibilities in the exciting field of deep learning.
+
+
