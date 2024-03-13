@@ -85,9 +85,13 @@ Initialize the model parameters, such as weights and biases, usually randomly or
 
 ### 2. Forward Pass
 
+Feed the input data through the model to generate predictions. This step involves applying the model's forward computation, which consists of matrix multiplications and activation functions applied to the input data.
 
+- Input data moves through the network layer by layer, undergoing transformations via weighted connections and activation functions.
+- At each layer, a weighted sum of inputs is computed, followed by the application of an activation function to introduce non-linearity.
+- The output of each layer becomes the input to the next layer, culminating in the final predictions or outputs of the network.
+- The forward pass is a critical step in the network's operation, converting input data into meaningful predictions or outputs.
 
 ![image](https://github.com/BimsaraS99/Neural-Network-From-Scratch-with-NumPy/assets/107334404/b9d6f521-28aa-4b73-a93d-3f2a913d80ef)
 
-
-
+### 3. Loss Calcultaions
