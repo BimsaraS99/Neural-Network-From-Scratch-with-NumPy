@@ -10,7 +10,7 @@ In the `ann_no_packages.ipynb` notebook, include the code for building a neural 
 
 Artificial Neural Networks (ANNs) are computational models inspired by the structure and functioning of biological neural networks, such as the human brain. ANNs consist of interconnected nodes, or neurons, organized into layers. These networks can learn to perform tasks by adjusting the connections between neurons based on input data.
 
-## Nodes or Neurons
+## Nodes / Neurons
 
 The basic building blocks of ANNs are neurons, which receive input signals, perform computations, and produce output signals. Each neuron applies an activation function to the weighted sum of its inputs, including a bias term. The bias term allows neurons to capture additional information and enables the network to learn complex relationships in the data.
 
